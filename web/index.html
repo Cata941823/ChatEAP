@@ -6,32 +6,44 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Web ChatApp - Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <form action="register" method="post">
-		<p>Nume:</p>
-		<input type="text" name="nume">
-		<br>
-		<p>Prenume:</p>
-		<input type="text" name="prenume">
-		<br>
-                <p>Data nasterii:</p>
-		<input type="date" name="datan">
-		<br>
-		<p>Sex:</p>
-		<label>Masculin</label><input type="radio" name="sex" value="masculin">
-		<label>Feminin</label><input type="radio" name="sex" value="feminin">
-		<br>
-		<p>E-mail:</p>
-		<input type="email" name="emailaddress">
-		<br>
-		<p>Parola:</p>
-		<input type="password" name="password">
-		<br>
-		<input type="submit">
-	</form>
+        <div id="Formular">
+            <form action="register" method="post">
+                    <p>Nume:</p>
+                    <input type="text" name="nume" placeholder="Popescu">
+                    <br>
+                    <p>Prenume:</p>
+                    <input type="text" name="prenume" placeholder="Ion">
+                    <br>
+                    <!--<p>Data nasterii:</p>
+                    <input type="date" name="datan" min="1900-01-01" max="2006-01-01">
+                    <br>
+                   
+                   
+                   <p>Sex:</p>
+                    <input type="text" name="sex">
+ <label class="container">Masculin
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Feminin
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label> -->
+                    <br>
+                    <p>E-mail:</p>
+                    <input type="email" name="emailaddress">
+                    <br>
+                    <p>Parola:</p>
+                    <input type="password" name="password">
+                    <br>
+                    <button type="submit" style="background-color: #6d9364; color:white;">SIGN UP</button>
+            </form>
+        </div>
     </body>
 </html>
